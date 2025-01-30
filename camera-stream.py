@@ -18,11 +18,11 @@ from picamera2.outputs import FileOutput
 PAGE = """\
 <html>
 <head>
-<title>picamera2 MJPEG streaming demo</title>
+<title>Remote Control Camera</title>
 </head>
 <body>
-<h1>Picamera2 MJPEG Streaming Demo</h1>
-<img src="stream.mjpg" width="640" height="480" />
+<center><h1>Remote Control Camera</h1></center>
+<center><img src="stream.mjpg" width="1152" height="864" /></center>
 </body>
 </html>
 """
