@@ -19,10 +19,15 @@ PAGE = """\
 <html>
 <head>
 <title>Remote Control Camera</title>
+    <style>
+        .rotate-image {
+            transform: rotate(90deg);
+        }
+    </style>
 </head>
 <body>
 <center><h1>Remote Control Camera</h1></center>
-<center><img src="stream.mjpg" width="1152" height="864" /></center>
+<center><img src="stream.mjpg" width="960" height="720" class="rotate-image"/></center>
 </body>
 </html>
 """
